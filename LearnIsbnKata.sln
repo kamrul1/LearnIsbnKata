@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{332190F6-095B-49A4-9C73-661867DEEEA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6A3C14A0-F7BE-423A-A595-62CEFB7711DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{B8867118-C5ED-4791-A3E1-4390E0B962E1}"
+	ProjectSection(SolutionItems) = preProject
+		build\README.md = build\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnIsbnKata.Test", "LearnIsbnKata.Test\LearnIsbnKata.Test.csproj", "{9358988D-2722-4B54-B6C4-E93DBBECF167}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9358988D-2722-4B54-B6C4-E93DBBECF167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9358988D-2722-4B54-B6C4-E93DBBECF167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9358988D-2722-4B54-B6C4-E93DBBECF167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9358988D-2722-4B54-B6C4-E93DBBECF167}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9358988D-2722-4B54-B6C4-E93DBBECF167} = {6A3C14A0-F7BE-423A-A595-62CEFB7711DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90157098-12D3-4C95-83D9-90B691AA60AE}
+	EndGlobalSection
+EndGlobal
