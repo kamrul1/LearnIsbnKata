@@ -2,19 +2,19 @@
 
 namespace LearnIsbnKata.Test.helpers
 {
-    public class SumEachPositionByMultipler
+    public class SumPositionForISBN13
     {
-        private const int isbn13Length = 13;
+        private const int length = 13;
         private const int oddPositionMultipler = 1;
         private const int evenPositionMultipler = 3;
 
-        internal static List<int> SumAmounts(IReadOnlyList<int> isbnArray)
+        public static List<int> SumAmounts(IReadOnlyList<int> isbnArray)
         {
             List<int> amounts = new();
 
             for (int i = 0, position = 1; i < isbnArray.Count; i++, position++)
             {
-                if (position == isbn13Length)
+                if (position == length)
                 {
                     continue;
                 }

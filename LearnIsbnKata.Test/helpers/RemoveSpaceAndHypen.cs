@@ -2,11 +2,8 @@
 {
     public class RemoveSpaceAndHypen
     {
-        internal string CleanISBN(string isbn)
-        {
-            return isbn
+        public string CleanISBN(string isbn) => isbn
                     .Replace(" ", "")
                     .Replace("-", "");
-        }
     }
 }
